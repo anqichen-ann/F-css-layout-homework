@@ -30,7 +30,7 @@ ul {
   line-height: 60px;
 }
 .main-content {
-  padding: 20px;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -55,19 +55,20 @@ ul {
   margin-bottom: 5px;
 }
 .article {
-  width: 880px;
-  height: 750px;
+  width: 900px;
+  height: 700px;
   display: flex;
   flex-flow: column wrap;
 }
 .article figure {
-  width: 400px;
-  margin: 0 10px 20px;
+  width: 440px;
+  margin: 0 10px 10px;
   border: 1px solid lightgrey;
   padding-bottom: 20px;
 }
 .article figure img {
-  width: 400px;
+  width: 440px;
+  height: 140px;
 }
 .article .figure2 {
   order: 2;
@@ -80,6 +81,7 @@ ul {
 }
 .article figcaption p {
   margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .right {
