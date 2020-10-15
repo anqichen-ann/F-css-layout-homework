@@ -91,7 +91,7 @@ ul {
   text-align: center;
 }
 .right input {
-  border-radius: 5%;
+  border-radius: 5px;
   padding: 0 5px;
 }
 
@@ -107,13 +107,12 @@ ul {
 .checkbox input {
   margin-right: 10px;
 }
-.right button {
+.right input[type="submit"] {
   width: 180px;
   height: 35px;
   background-color: rgb(28, 131, 196);
   border-color: transparent;
   color: white;
-  font-size: 50;
 }
 .footer {
   height: 80px;
